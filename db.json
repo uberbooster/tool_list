@@ -1,0 +1,103 @@
+{
+  "tools": [
+    {
+      "id": "51a695a6-a9b7-4389-a97d-ee661c5a9967",
+      "class": "Wrench",
+      "brand": "Crescent",
+      "tradeName": "Crescent Wrench",
+      "description": "Adjustable Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "204db170-b228-4bae-93b8-a4f9137c29b6",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "981a4cc8-6bda-4913-bc4f-a594733033d7",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "6mm Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "fa0fc754-d8f0-42c9-9d64-f37f887ae378",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "7mm Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "9c57bbb5-5878-4a0c-9d00-1bf291c68dda",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "8mm Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "f72cd40a-5abb-4bd6-9129-6c1d3d0239da",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "9mm Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "a9a7bdeb-574a-43af-bade-104e127b9ccc",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "10mm Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "60862433-1139-4ecd-bdc1-fb60c53e6eb9",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "11mm Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    },
+    {
+      "id": "ca115f61-88ea-4f51-a63b-b334e88224e3",
+      "class": "Wrench",
+      "brand": "Westward",
+      "tradeName": "Box End Wrench",
+      "description": "12mm Box End Wrench",
+      "material": "Steel",
+      "howConstructed": "Cast",
+      "type": "Hand Tool",
+      "isBroken": false
+    }
+  ]
+}
