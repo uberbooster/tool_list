@@ -20,6 +20,7 @@ server.get('/tools', function(request, response){
   response.send(tools);
 });
 
+
 server.get('/tools/:id', function(request, response){
   //response.send('GET todos :id');
   //console.log(request.params);
@@ -27,6 +28,13 @@ server.get('/tools/:id', function(request, response){
                  .find({id: request.params.id})
                  .value();
   response.send(tool);
+});
+
+server.get('/tools/shelf/:shelfID', function(request, response){
+  var toolsOnShelf = db.get('tools')
+                      .find({shelfID: request.params.shelfID})
+                      .value();
+  response.send(toolsonShelf);
 });
 
 
@@ -41,6 +49,8 @@ server.post('/tools', function(request, response){
                 material: request.body.material,
                 howConstructed: request.body.howConstructed,
                 type: request.body.type,
+                shelfID: request.body.shelfID,
+                drawerID: request.body.drawerID,
                 isBroken: false
               };
   var result = db.get('tools')
@@ -51,9 +61,18 @@ server.post('/tools', function(request, response){
 });
 
 server.put('/tools/:id', function(request, response){
+  console.log(request.body);
   //response.send('PUT todos :id');
   var updatedToolInfo = {
+                          class: request.body.class,
+                          brand: request.body.brand,
+                          tradeName: request.body.tradeName,
                           description: request.body.description,
+                          material: request.body.material,
+                          howConstructed: request.body.howConstructed,
+                          type: request.body.type,
+                          shelfID: request.body.shelfID,
+                          drawerID: request.body.drawerID,
                           isBroken: request.body.isBroken
                        };
   var updatedTool = db.get('tools')
